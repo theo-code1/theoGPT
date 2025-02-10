@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'open-sans-medium';
+    src: url('../public/Open-Sans/OpenSans-Medium.ttf') format('ttf');
+    font-display: swap;
+
+  }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
